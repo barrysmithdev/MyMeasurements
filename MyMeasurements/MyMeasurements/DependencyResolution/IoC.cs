@@ -17,7 +17,8 @@
 
 
 using StructureMap;
-namespace MyMeasurements.DependencyResolution {
+namespace MyMeasurements.Web.DependencyResolution
+{
     public static class IoC {
         public static IContainer Initialize() {
             ObjectFactory.Initialize(x =>

@@ -18,7 +18,7 @@
 using System.Web.Http.Dependencies;
 using StructureMap;
 
-namespace MyMeasurements.DependencyResolution
+namespace MyMeasurements.Web.DependencyResolution
 {
     /// <summary>
     /// The structure map dependency resolver.

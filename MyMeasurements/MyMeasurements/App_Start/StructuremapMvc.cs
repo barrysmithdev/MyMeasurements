@@ -1,10 +1,10 @@
 using System.Web.Mvc;
-using MyMeasurements.DependencyResolution;
+using MyMeasurements.Web.DependencyResolution;
 using StructureMap;
 
-[assembly: WebActivator.PreApplicationStartMethod(typeof(MyMeasurements.App_Start.StructuremapMvc), "Start")]
+[assembly: WebActivator.PreApplicationStartMethod(typeof(MyMeasurements.Web.App_Start.StructuremapMvc), "Start")]
 
-namespace MyMeasurements.App_Start {
+namespace MyMeasurements.Web.App_Start {
     public static class StructuremapMvc {
         public static void Start() {
             var container = (IContainer) IoC.Initialize();

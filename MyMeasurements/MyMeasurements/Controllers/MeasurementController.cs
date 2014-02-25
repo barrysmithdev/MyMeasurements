@@ -3,17 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MyMeasurements.Domain;
 
-namespace MyMeasurements.Controllers
+
+namespace MyMeasurements.Web.Controllers
 {
     public class MeasurementController : Controller
     {
         //
         // GET: /Measurement/
+        private readonly IDataRepository _dataRepository ;
+
+        public MeasurementController(IDataRepository dataRepository)
+        {
+            _dataRepository = dataRepository;
+        }
 
         public ActionResult Index()
         {
-            return View();
+            var user =_dataRepository.Get("");
+            return View(user);
         }
 
     }

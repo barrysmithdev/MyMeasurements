@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MyMeasurements.Models;
+using MyMeasurements.Domain;
 
-namespace MyMeasurements.Tests
+namespace MyMeasurements.Web.Tests
 {
     [TestClass]
     public class ProfileMeasurementTests
