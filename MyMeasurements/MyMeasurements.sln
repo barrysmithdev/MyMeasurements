@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMeasurements", "MyMeasurements\MyMeasurements.csproj", "{696E6F8C-C1EA-4F4A-8437-D38C14434F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMeasurements.Tests", "MyMeasurements.Tests\MyMeasurements.Tests.csproj", "{ABDFA343-13C9-4525-93D6-F7C39B3FD30B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{696E6F8C-C1EA-4F4A-8437-D38C14434F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{696E6F8C-C1EA-4F4A-8437-D38C14434F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{696E6F8C-C1EA-4F4A-8437-D38C14434F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{696E6F8C-C1EA-4F4A-8437-D38C14434F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDFA343-13C9-4525-93D6-F7C39B3FD30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDFA343-13C9-4525-93D6-F7C39B3FD30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDFA343-13C9-4525-93D6-F7C39B3FD30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDFA343-13C9-4525-93D6-F7C39B3FD30B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
